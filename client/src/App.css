@@ -1,0 +1,112 @@
+.App{
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url('../public/2232023\ GRADIENT@2x.png'); */
+  /* background-image: url('/public/wallhaven-r276rj_1920x1080.png'); */
+  background-color: #414345;
+}
+
+.auth-page-container{
+  height: 100vh;
+  font-family: 'Roboto Mono', monospace;
+  width: 100vw;
+  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+  /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+  /* background-image: url('../public/wp11322088-pink-wave-wallpapers.png'); */
+  /* background-image: url('../public/05052022-GRADIENT@2x.png'); */
+  /* background-image: url('../public/2232023\ GRADIENT@2x.png'); */
+  /* background-image: url('../public/z-s-nqVDLh2WLus-unsplash.jpg'); */
+  /* background-image: url('../public/mohammad-alizade-XgeZu2jBaVI-unsplash.jpg'); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/*login pages css*/
+
+.login-container{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.267);
+  gap: 0.8rem;
+  border-radius: 31px;
+  backdrop-filter: blur(6px);
+  box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.308);
+  }
+
+h1{
+  color: #EAE6E5;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+input{
+  color: rgba(255, 255, 255, 0.548);
+  padding: 0.7rem;
+  font-size: 0.9rem;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(83, 83, 83, 0.185);
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+button{
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.877);
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(83, 83, 83, 0.185);
+}
+
+
+label{
+  color: rgba(255, 255, 255, 0.575);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+
+/*signup css*/
+.linktologin{
+  margin-top: -0.5rem;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.575);
+  cursor: pointer;
+}
+
+.link{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.575);
+}
+.loglink:hover{
+  color:rgba(255, 255, 255, 0.137);
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.26);
+  
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; 
+}
+
