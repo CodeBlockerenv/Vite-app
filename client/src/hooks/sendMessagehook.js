@@ -15,7 +15,7 @@ const sendMessagehook = () => {
             formdata.append('message', message);
         }
         try {
-            const res = await fetch(`http://localhost:5000/api/messages/send/${selectedConversation._id}`, {
+            const res = await fetch(`/api/messages/send/${selectedConversation._id}`, {
                 method: 'POST',
                 credentials: 'include',
                 body: formdata
